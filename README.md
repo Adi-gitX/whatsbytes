@@ -1,6 +1,6 @@
 # whatbytes Assignment
 
-Live Site Link - localhost3000
+Live Site Link - https://localhost:3000 and deployed link is : https://writebytes.vercel.app
 
 ## Getting Started with Create React App
 
