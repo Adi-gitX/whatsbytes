@@ -1,0 +1,37 @@
+/* src/pages/Dashboard.css */
+.dashboard-page {
+    display: flex;
+  }
+  
+  .error-page {
+    text-align: center;
+    margin-top: 20px; /* Adjusted margin-top */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .error-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh; /* Adjusted maximum height */
+    margin-top: 20px; /* Added margin-top */
+  }
+  
+  .home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #438AF6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home-button:hover {
+    background-color: #357ae8;
+  }
