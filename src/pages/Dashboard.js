@@ -1,4 +1,3 @@
-// src/pages/Dashboard.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import dashboard404 from './ErrorAsserts/Dashboard404.png';

@@ -1,4 +1,3 @@
-// src/pages/Internships.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import internship404 from './ErrorAsserts/Internship404.png';
