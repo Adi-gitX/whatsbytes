@@ -4,6 +4,7 @@
     padding: 0 2.77vw;
     border-left: 2px solid #EBF0F5;
     overflow-y: scroll;
+    transition: all 0.3s ease-in-out;
 }
 
 .pageTitle {
@@ -14,12 +15,73 @@
     letter-spacing: -0.02em;
     color: #566474;
     padding: 2.083vw 0;
+    transition: font-size 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 
 .pageComponents {
     display: flex;
+    gap: 1.5vw;
 }
 
 .skillTestLeft {
     margin-right: 2.083vw;
+    transition: margin 0.3s ease-in-out;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1024px) {
+    .skillTest {
+        height: calc(100vh - 8vw);
+        padding: 0 3.5vw;
+    }
+
+    .pageTitle {
+        font-size: 0.72rem;
+        line-height: 0.95rem;
+        padding: 2.5vw 0;
+    }
+
+    .skillTestLeft {
+        margin-right: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skillTest {
+        height: calc(100vh - 10vw);
+        padding: 0 4vw;
+    }
+
+    .pageTitle {
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+        padding: 3vw 0;
+    }
+
+    .pageComponents {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .skillTestLeft {
+        margin-right: 0;
+        margin-bottom: 3vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skillTest {
+        height: calc(100vh - 12vw);
+        padding: 0 5vw;
+    }
+
+    .pageTitle {
+        font-size: 0.65rem;
+        line-height: 0.85rem;
+        padding: 4vw 0;
+    }
+
+    .pageComponents {
+        gap: 4vw;
+    }
 }

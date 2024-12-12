@@ -1,5 +1,25 @@
+/* Default Sidebar Styles */
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: 15.7vw;
+    width: auto;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+/* Style for each item inside sidebar */
+.sidebar a {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color: inherit; /* Retains default color */
+}
+
+/* Responsive Sidebar for Mobile */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 30%; /* Full width on mobile */
+        padding: 5px;
+    }
 }
